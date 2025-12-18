@@ -32,7 +32,7 @@ TITLE=$(echo "$ALBUM_NAME" | sed 's/-/ /g' | sed 's/\b\(.\)/\u\1/g')
 
 ALBUM_DATE=${DATE:-$(date +%Y-%m-%d)}
 
-BASE_URL="https://raw.githubusercontent.com/packjackisback/packjack.dev-content/main"
+BASE_URL="https://raw.githubusercontent.com/packjackisback/packjack.dev-content/master"
 
 cat > "$MD_FILE" << EOF
 ---
